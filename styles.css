@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#user-input-qr {
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+#videoContainer {
+  position: relative;
+}
+#canvas {
+  width: 100%;
+  max-width: 640px;
+  margin: 20px auto;
+  border: 2px solid #333;
+}
+#video {
+  width: 100%;
+  max-width: 640px;
+  margin: 20px auto;
+  border: 2px solid #333;
+}
+#captureBtn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+#capturedImg {
+  width: 100%;
+  max-width: 640px;
+  margin: 20px auto;
+  border: 2px solid #333;
+}

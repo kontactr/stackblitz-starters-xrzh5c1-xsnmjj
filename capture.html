@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="videoContainer">
+      <video id="video" autoplay hidden></video>
+      <canvas id="canvas"></canvas>
+      <canvas id="canvas-output" hidden></canvas>
+      <button id="contract">Contract Me</button>
+      <img id="capturedImg" src="" alt="Captured Selfie" />
+    </div>
+    <script type="module" src="capture.js"></script>
+  </body>
+</html>
